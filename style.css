@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(133, 252, 252);
+    padding: 20px;
+
+}
+
+span{
+    display: flex;
+    color:#4d0202;
+    font-size: 25px;
+    margin-bottom: 15px;
+    font-style: italic;
+    
+}
+input{
+    border: none;
+    height: 36px;
+    width: 56px;
+    cursor: pointer;
+
+}
+body{
+    background-color: antiquewhite;
+}
